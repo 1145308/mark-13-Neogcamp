@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+:root{
+    --primary-color :  #8fad08;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    background-color: #455305;
+}
+
+h1{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 35px;
+    font-weight: bolder;
+    color: var(--primary-color);
+}
+#para{
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    max-width: 50%;
+    margin: auto;
+    color: white;
+}
+#date-input{
+    display: block;
+    margin: auto;
+    width: 20%;
+    padding: 0.6rem 0.5rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.7rem;
+    font-size: 16px;
+}
+#input-label{
+    color: var(--primary-color);
+    display: block;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 21px;
+    font-weight: bold;
+}
+ #show-btn{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    
+    padding: 0.6rem 1.5rem;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0.8rem;
+    background-color: var(--primary-color);
+    border: solid var(--primary-color);
+    color: white;
+    cursor: pointer;
+}
+
+#show-output{
+    font-size: 22px;
+    margin: 2rem;
+    text-align: center;
+    color: white;
+ }
+ footer{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--primary-color);
+    position: absolute;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+ }
+
+ #footer {
+    text-align: center;
+    margin-top: 0.9rem;
+}
+.img {
+    max-width: 2.5rem;
+}
+#list {
+    list-style-type: none;
+    text-align: center;
+    padding-inline-start: 0;
+}
+.list-inline {
+    display: inline;
+    padding: 0 0.7rem;
+}
